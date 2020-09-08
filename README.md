@@ -1,6 +1,11 @@
 # vernacular-challenge
 
 1. The following Dockerfile works to create container image as intended.
+    Build Instructions
+    - $ cd path/to/repo
+    - $ docker build -t my-custom-ubuntu:vernacular .
+    Run instructions
+    - $ docker run -it my-custom-ubuntu:vernacular
 
 2. following files contain necessary data on hardware spec.
     - $ cat /proc/cpuinfo
